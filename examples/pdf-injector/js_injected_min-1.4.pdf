@@ -24,7 +24,7 @@ endobj
 <<
 /Type /Action
 /S /JavaScript
-/JS (app.alert\("Congratulations, your Adobe App has been hacked!"\);\napp.launchURL\("http://micro.thinx.cloud:5000/images/transparent.png", true\);\n\nalert\("Congratulations, your browser has been hacked."\);\nwindow.location\("http://micro.thinx.cloud:5000/images/transparent.png", true\);\n)
+/JS (if \(typeof\(app\) !== "undefined"\) {\n  app.alert\("Congratulations, your Adobe App has been hacked!"\);\n  app.launchURL\("http://micro.thinx.cloud:5000/images/transparent.png", true\);\n} else {\n  alert\("Congratulations, your browser has been hacked."\);\n  window.location\("http://micro.thinx.cloud:5000/images/transparent.png", true\);\n}\n)
 >>
 endobj
 5 0 obj
@@ -54,14 +54,14 @@ xref
 0000000098 00000 n
 0000000128 00000 n
 0000000185 00000 n
-0000000532 00000 n
-0000000652 00000 n
+0000000591 00000 n
+0000000711 00000 n
 trailer
 <<
 /Size 7
 /Root 1 0 R
-/ID [<5956449019703358012F0149DEE4810B> <5956449019703358012F0149DEE4810B>]
+/ID [<4B86E4E1068F7D507B2E581F3C80C15E> <4B86E4E1068F7D507B2E581F3C80C15E>]
 >>
 startxref
-736
+795
 %%EOF
