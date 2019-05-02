@@ -10,6 +10,17 @@ def get_hit_count():
     retries = 5
     while True:
         try:
+            return cache.get('hits')
+        except redis.exceptions.ConnectionError as exc:
+            if retries == 0:
+                raise exc
+            retries -= 1
+            time.sleep(0.5)
+
+def update_hit_count():
+    retries = 5
+    while True:
+        try:
             return cache.incr('hits')
         except redis.exceptions.ConnectionError as exc:
             if retries == 0:
@@ -24,7 +35,7 @@ def hello():
 
 @app.route('/images/transparent.png')
 def image():
-    count = get_hit_count()
+    count = update_hit_count()
     print("Hit count: {}.\n".format(count))
     try:
         return send_file('./transparent.png', attachment_filename='transparent.png')
